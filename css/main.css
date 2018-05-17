@@ -358,35 +358,32 @@ a.app_link{
 
 
 
+/*		Profile section 		*/
 
-
-
-/*		Featured on section 		*/
-
-.featured_on{
-	width: 100%;
-	padding: 25px 0;
-	background: #f3f3f3;
-}
-
-.featured_on ul{
-	margin: 0;
-}
-
-.featured_on li{
+.profile{
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	align: center;
 	position: relative;
-	height: 100%;
-}
-
-.featured_on li:first-child{
-	margin-left: 0;
+	display: inline-block;
+	text-align: center;
 }
 
 
+.avatar{
+	border-radius: 200px; /* Радиус скругления */
+	border: 3px solid green; /* Параметры рамки */
+	box-shadow: 0 0 7px #666; /* Параметры тени */	
+}
 
-
-
-
+.name{
+	margin-top: 100px;
+	margin-left: 200px;
+	float: right;
+	font-size: 30px;
+}
 
 
 
@@ -911,6 +908,10 @@ footer .copyright a{
 
 	.sub_box #mc_submit{
 		margin-top: 20px;
+	}
+
+	.profile{
+		margin-top: 200px;
 	}
 }
 
