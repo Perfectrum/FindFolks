@@ -198,10 +198,6 @@ header .social li:first-child{
 
 
 
-
-
-
-
 /*		Hero section 		*/
 
 .hero{
@@ -225,7 +221,7 @@ header .social li:first-child{
 }
 
 .hero .caption h1{
-	color: #525252;
+	color: white;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
 	font-weight: bold;
@@ -233,7 +229,7 @@ header .social li:first-child{
 }
 
 .hero .caption p{
-	color: #6d6c6c;
+	color: white;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 30px;
@@ -248,13 +244,13 @@ a.app_store_btn{
 	display: inline-block;
 	text-decoration: none;
 	padding: 15px 40px;
-	border: 2px solid #525252;
+	border: 2px solid white;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	margin: 20px 20px 10px 0;
 
-	color: #525252;
+	color: white;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
@@ -790,21 +786,16 @@ footer .copyright a{
 
 @media (max-width: 360px) {
 	.featured_on li{
-		display: block;
 		width: 100%;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
 
 
 	/*		Header 		*/
 	header .logo{
 		margin-right: 0;
-	}
-
-	header .burger_icon{
-		display: block;
 	}
 
 	header nav{
@@ -814,7 +805,6 @@ footer .copyright a{
 		position: absolute;
 		margin-top: 130px;
 		left: 0;
-		display: none;
 	}
 
 	header nav.show{
@@ -859,7 +849,7 @@ footer .copyright a{
 	}
 
 	.app_store_btn{
-		display: block;
+		/*display: block;*/
 		width: 90%;
 		padding-left: 0;
 		padding-right: 0;
@@ -922,4 +912,11 @@ footer .copyright a{
 	.sub_box #mc_submit{
 		margin-top: 20px;
 	}
+}
+
+#map {
+	width: 100%;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
 }

@@ -1,9 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en-us">
 <head>
-
-<?php echo "lolkek" ?>
-
 	<title>FindFolks</title>
 	<meta name="description" content="Capture is a free bootstrap v3.3.2 app landing page perfect to present you IOS, android or windows application in an elegant way."/>
 	<meta charset="utf-8">
@@ -23,6 +20,10 @@
 	<script type="text/javascript" src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/nicescroll.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+	<script charset="utf-8" type="text/javascript" src="js/geolocation.js"></script>
 </head>
 <body>
 	<header>
@@ -34,7 +35,6 @@
 			<nav class="pull-left">
 				<ul class="list-unstyled">
 					<li class="animated wow fadeInLeft" data-wow-delay=".2s"><a href="profile.html">Профиль</a></li>
-					<li class="animated wow fadeInLeft" data-wow-delay="0s"><a href="search.html">Найти мероприятие</a></li>
 					<li class="animated wow fadeInLeft" data-wow-delay=".1s"><a href="create.html">Организовать мероприятие</a></li>
 				</ul>
 			</nav>
@@ -56,17 +56,7 @@
 
 
 	<!--  Hero Section  -->
-	<section class="hero" id="hero">
-		<div class="container">
-			<div class="caption">
-				<h1 class="text-uppercase  animated wow fadeInLeft">Добро пожаловать на FindFolks!</h1>
-				<p class="animated wow fadeInLeft">Найдите мероприятия поблизости или создайте сами. От спортивных турниров, до совместных походов в театр.</p>
-				<a href="" class="app_store_btn text-uppercase animated wow fadeInLeft">
-					<span>Начать</span>
-				</a>
-			</div>			
-		</div>
-	</section>
+		<div id="map"></div>
 	<!--  End Hero Section  -->
 
 
