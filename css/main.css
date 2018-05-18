@@ -738,10 +738,16 @@ a.app_link{
 
 
 
-
-
-
-
+/*	Filter section	*/
+.filter{
+	width: 100%;
+	padding: 100px 0 20px 0;
+	background-color: #41c17d;
+	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+	}
 
 
 /*		Footer 		*/
@@ -774,6 +780,12 @@ footer .copyright a{
 
 
 
+#map {
+	margin-left: 15%;
+	width: 70%;
+	height: 50vh;
+	padding: 0;
+}
 
 
 
@@ -913,11 +925,10 @@ footer .copyright a{
 	.profile{
 		margin-top: 200px;
 	}
-}
 
-#map {
-	width: 100%;
-	height: 100vh;
-	padding: 0;
-	margin: 0;
+	#map{
+		margin-top: 127px;
+		margin-left: 0;
+		width: 100%;
+	}
 }

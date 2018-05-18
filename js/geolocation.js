@@ -33,15 +33,4 @@ function init() {
 
     });
 
-
- objectManager.objects.options.set('preset', 'islands#greenDotIcon');
-    objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
-    myMap.geoObjects.add(objectManager);
-
-    $.ajax({
-        url: "data.json"
-    }).done(function(data) {
-        objectManager.add(data);
-    });
-
 }
