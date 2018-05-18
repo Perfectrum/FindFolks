@@ -918,6 +918,10 @@ footer .copyright a{
 		text-align: center;
 	}
 
+	.sub_box{
+		margin-top:120px;
+	}
+
 	.sub_box #mc_submit{
 		margin-top: 20px;
 	}
@@ -930,5 +934,9 @@ footer .copyright a{
 		margin-top: 127px;
 		margin-left: 0;
 		width: 100%;
+	}
+	
+	.enter{
+		margin-top: 120px;
 	}
 }
